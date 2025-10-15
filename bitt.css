@@ -1,0 +1,74 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 12px;
+  margin: 10px 0 20px;
+}
+
+.insta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 20px;
+  background-color: #E1306C; /* Instagram pink */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.insta-button:hover {
+  background-color: #c92d63;
+}
+
+.insta-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .insta-button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
